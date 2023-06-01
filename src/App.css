@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  /* color:rebeccapurple; */
+}
+#item{
+  border-radius: 10px;
+}
+.alert{
+  color: rgb(4, 114, 33);
+  font-family: monospace;
+  font-weight: 400;
+  position: absolute;
+  top:7%;
+  left: 35%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+#loginForm,#registerForm{
+  font-family: monospace;
+}
+#loginForm input,#registerForm input{
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  height: 2em;
+  border-radius: 5px;
+}
+#registerLink{
+  font-family: monospace;
+padding: 5px 10px 5px 10px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
