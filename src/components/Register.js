@@ -102,7 +102,7 @@ function Register() {
               placeholder="email"
             />
             <input
-              type="text"
+              type="password"
               value={password}
               onChange={(e) => {
                 setPassword(e.target.value);
@@ -112,7 +112,7 @@ function Register() {
               placeholder="password"
             />
             <input
-              type="text"
+              type="password"
               value={newPassword}
               onChange={(e) => {
                 setNewPassword(e.target.value);

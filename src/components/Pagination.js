@@ -69,7 +69,7 @@ function Pagination(props) {
   const data = props.data;
 
   return (
-    <div className="mt-4 bg-sky-200 mt-14 " id="item">
+    <div className=" bg-sky-200 mt-20 " id="item">
       {count < 11 ? (
         <div className="text-left ml-[20%]">
           <form onSubmit={(e) => handleSubmit(e, count)}>
